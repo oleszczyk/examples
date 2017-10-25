@@ -44,6 +44,10 @@
 #include "imx6ul-liteboard.dts"
 
 / {
+	model = "Grinn i.MX6UL - 4g extension board";
+};
+
+/ {
 	reg_usb_otg2_vbus: regulator-usb-otg2-vbus {
 		compatible = "regulator-fixed";
 		pinctrl-names = "default";
@@ -74,7 +78,7 @@
 
 &gpio1 {
 	gpio-line-names = "", "", "", "", "", "", "", "",
-		"", "", "TELIT_4G_INIT", "", "", "", "", "",
+		"", "", "GSM_ONn", "", "", "", "", "",
 
 		"", "", "", "", "", "", "", "",
 

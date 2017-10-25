@@ -44,7 +44,7 @@
 #include "am335x-chiliboard.dts"
 
 / {
-	model = "Grinn AM335x chiliboard - 4g board v3";
+	model = "Grinn AM335x chiliboard - 4g extension board";
 };
 
 &am33xx_pinmux {
@@ -79,6 +79,6 @@
 &gpio1 {
 	gpio-line-names = "", "", "", "", "", "", "", "",
 		"", "", "", "", "", "", "", "",
-		"", "", "", "", "", "", "", "TELIT_4G_INIT",
+		"", "", "", "", "", "", "", "GSM_ONn",
 		"", "", "", "", "", "", "", "";
 };

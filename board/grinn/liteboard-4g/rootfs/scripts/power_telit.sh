@@ -1,6 +1,6 @@
 #!/bin/sh
 
-gpioset `gpiofind "TELIT_4G_INIT"`=1
+gpioset `gpiofind "GSM_ONn"`=1
 sleep 2
-gpioset `gpiofind "TELIT_4G_INIT"`=0
+gpioset `gpiofind "GSM_ONn"`=0
 

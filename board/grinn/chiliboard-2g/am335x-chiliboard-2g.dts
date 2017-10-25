@@ -43,6 +43,10 @@
 
 #include "am335x-chiliboard.dts"
 
+/ {
+	model = "Grinn AM335x chiliboard - 2g extension board";
+};
+
 &am33xx_pinmux {
 	usb0_drvvbus: usb0_drvvbus {
 		pinctrl-single,pins = <
